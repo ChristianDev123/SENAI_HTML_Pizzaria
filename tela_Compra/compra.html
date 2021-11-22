@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="CSS/estiloP2.css">
+    <link rel="shortcut icon" href="../favicon/1957d0005ad3ea2.jpg" type="image/x-icon">
+</head>
+
+<body onload="apagaCookie()">
+    <h1 id="titulo">Escolha de Pizza</h1>
+    <section>
+        <header>
+            <h1 id="header">Faça seu Pedido: </h1>
+        </header>
+        <form action="../tela d pagamentos/telaPag.html">
+            <div id="escolhaDiv">
+                <div id="pizzaS">
+                    <input type="radio" name="tipoPizza" id="pizInt">
+                    <label for="pizInt">Pizza  1 Sabor</label>
+                </div>
+                <div id="pizzaD">
+                    <input type="radio" name="tipoPizza" id="pizMet">
+                    <label for="pizMet"> Pizza 2 Sabores</label>
+                </div>
+                <input type="button" class="btns" value="Selecionar" id="btnDivPizza" onclick="verifica()">
+            </div>
+            <div id="escolhaSabor">
+            </div>
+            <input type="submit" class="irVoltar" id="enviarPagina" disabled>
+        </form>
+        <script src="JavaScript_P2/script.js"></script>
+    </section>
+    <div id="btns">
+        <a href="../cardapio/cardapio2.html"><input type="button" class="irVoltar"value="<"></a>
+    </div>
+    <br>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right,rgb(82, 0, 0),rgba(0, 0, 0, 0.924));
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    display: block;
+    padding: 0px 20px;
+}
+nav{
+    background-image: linear-gradient(to right,black,rgb(59, 0, 0));
+    height: 50px;
+}
+ul#ul-principal{
+    background-color: blue;
+    width: 90%;
+    margin:auto;
+}
+.li-principal{
+    line-height: 50px;
+    float: left;
+}
+ul li ul li{
+    background-color: black;
+}
+a:hover{
+    transition: 1s;
+}
+#img{
+    width: 20pt;
+}
+.ul-home,.ul-pizza,.ul-sobre,.ul-endereco{
+    display: none;
+}
+#imagem-pizza{
+    transition: all 0.5s;
+    margin-left:17%;
+    margin-top: 100px;
+    display: inline-flex;
+}
+#imagem-pizza:hover{
+    -webkit-filter: drop-shadow(15px 10px 15px rgb(122, 122, 122));
+    filter: drop-shadow(15px 10px 15px rgb(190, 190, 190));
+
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px 10px 10px black;
+    font-style:inherit;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+#pedido{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-style: oblique;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+#pedido:hover{
+    -webkit-filter: drop-shadow(15px 10px 15px rgb(255, 242, 242));
+    filter: drop-shadow(15px 10px 15px rgb(255, 247, 247));
+
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina Escolha Pagamento/estilo.css">
+    <title>Pagamento</title>
+    <link rel="shortcut icon" href="../favicon/1957d0005ad3ea2.jpg" type="image/x-icon">
+</head>
+<body onload="pedidoTela()">
+    <section id="all">
+        <h1>Dados da Compra :</h1>
+        <section id="pedido">
+            <div id="tipoPizza">
+            </div>
+            <div id="text"></div>
+        </section>
+        <section id="pagamento">
+            <h1>metodos de pagamento</h1>
+            <div id="metodo">
+                <input type="radio" name="escolha" id="cartao">
+                <label for="cartao">cartão</label><br><br>
+                <input type="radio" name="escolha" id="pix">
+                <label for="pix">pix</label><br><br>
+                <input type="radio" name="escolha" id="dinheiro">
+                <label for="dinheiro">dinheiro</label><br><br>
+                <div id="enviar">
+                    <input type="button" class="irVoltar" id="botao" value="enviar" onclick="verificar()">
+                </div>
+            </div>
+        </section>
+    </section>
+    <div id="btns">
+        <a href="../tela_Compra/compra.html"><input type="button" class="irVoltar" value="<"></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(to top,black,rgb(46, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size:50px;
+    text-shadow: 4px 4px 4px black;
+}
+h2{
+    font-size:30px ;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px black;
+}
+h3{
+    font-size:25px;
+    color: whitesmoke;
+}
+.img{
+    border-radius: 40px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.img:hover{
+    -webkit-filter: drop-shadow(15px 15px 15px  rgba(114, 114, 114, 0.911));
+    filter: drop-shadow(15px 10px 15px rgba(100, 100, 100, 0.911));
+}
+.img{
+    transition: all 1s;
+    cursor: pointer;
+}
+.img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#bebidas{
+    margin-left:125px;
+}
+div#idaVolta{
+    width: 250px;
+}
+input[type=button]{
+    width: 200px;
+    height: 45px;
+    background: rgb(160, 160, 160);
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+    border:0;
+    border-radius: 30px;
+    transition: 1s  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+input[type=button]:hover{
+    color: white;
+    background-color:darkred;
+}
+div#btns{
+    width:500px;
+    margin:auto;
+    margin-top:100px;
+}
+input.irVoltar{
+    width: 200px;
+    height: 45px;
+    background: rgb(160, 160, 160);
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+    border:0;
+    border-radius: 30px;
+    transition: 1s  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+input.irVoltar:hover{
+    color: white;
+    background-color:darkred;
+}

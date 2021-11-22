@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to left,rgb(148, 6, 6),rgba(0, 0, 0, 0.924));
+    text-align: center;
+}
+section#all{
+    background-image: url(../9e9dd9c7-4ddd-4c68-a8f2-dae904e7ff73.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 15px;
+    width: 1000px;
+    margin: auto;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px rgb(7, 2, 2);
+    min-height: 500px;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:200px ;
+    border: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+#botao{
+    width: 100px;
+    height: 30px;
+}
+input[type=submit]:hover{
+    background-color: rgb(224, 12, 12);
+    transition: 1s;
+}
+div#btns{
+    margin-top:200px;
+}
+input.irVoltar{
+    width: 200px;
+    height: 45px;
+    background: rgb(160, 160, 160);
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+    border:0;
+    border-radius: 30px;
+    transition: 1s  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+input.irVoltar:hover{
+    color: white;
+    background-color:darkred;
+}
+img.imagemDivPiz{
+    width: 300px;
+    height: 300px;
+}
+section#pedido{
+    display:flex;
+    width: 800px;
+    margin:auto;
+    background-image:linear-gradient(to left,rgb(141, 141, 141), black);
+    padding: 30px;
+    border-radius: 15px;
+    border:1px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+}
+div#text{
+    margin-left: auto;
+}
+div.apresentacao{
+    background-image: linear-gradient(to left, gray,black);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+label{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
