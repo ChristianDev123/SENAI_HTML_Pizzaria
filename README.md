@@ -1,34 +1,39 @@
-# Trabalho_Site-Pizzaria
-Trabalho do curso técnico de Desenvolvimento de Sistemas, Senai Suiço-Brasileiro, matéria: Linguagens de Marcação (LiMa), 1º Semestre.
+# Pizzaria LiMa (Linguagens de Marcação)
 
-<div id="participantes">
-  <h2>Participantes: <h2>
-  <ul>
-    <li>Christian Santana</li>
-    <li>João Vitor Gonçalves</li>
-    <li>Artur Mariano</li>
-  </ul>
-</div>
-<div id="funções">
-  <h2>Funções de cada Participante:</h2>
-  <ul>
-    <li>João - Css e HTML</li>
-    <li>Christian - Java Script e HTML</li>
-    <li>Artur - Photoshop e Testes</li>
-  </ul>
-</div>
-<div id="tecnologiasUtilizadas">
-  <h2>Tecnologias Utilizadas:</h2>
-  <ul>
-    <li>Java-Script "puro"</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>BootsTrap</li>
-  </ul>
-</div>
-<div>
-  <h2>Professor responsável pelo projeto:</h2>
-  <ul>
-    <li>Professor Vinícius</li>
-  </ul>
-</div>
+## Imagens da Aplicação:
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/SENAI_HTML_Pizzaria/blob/master/ChoosePizza.png)
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/SENAI_HTML_Pizzaria/blob/master/HomePage.png)
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/SENAI_HTML_Pizzaria/blob/master/ListingPage.png)
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/SENAI_HTML_Pizzaria/blob/master/LoginPage.png)
+
+![Imagens da Aplicação](https://github.com/ChristianDev123/SENAI_HTML_Pizzaria/blob/master/MethodPayment.png)
+
+## Como instalar localmente:
+
+Siga os seguintes passos utilizando o CMD do Windows ou Bash do Linux:
+
+```cmd
+    git clone https://github.com/ChristianDev123/SENAI_HTML_Pizzaria.git
+```
+```cmd
+    cd SENAI_HTML_Pizzaria
+```
+```cmd
+    code .
+```
+
+> Certifique-se de que tenha instalado o Visual Studio Code, e a extensão Live Server.
+
+- <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>;
+- Selecione 'Open With Live Server';
+
+## Tecnologias utilizadas:
+
+- Java-Script
+- HTML
+- CSS
+- BootsTrap
